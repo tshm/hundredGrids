@@ -14,3 +14,4 @@ deploy:
 env:
   global:
   - GH_REF: github.com/tshm/hundredGrids.git
+  - github_token: $GH_TOKEN
