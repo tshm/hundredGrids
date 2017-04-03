@@ -8,7 +8,7 @@ publish: index.html main.js
 	cd out; make -f ../Makefile page
 
 page:
-	cp -r ../index.html ../main.js ./
+	cp -r ../index.html ../main.js ../bower_components ./
 	git init
 	git config user.name "Travis IC"
 	git config user.email "2sm@csc.jp"
