@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "5.1"
+sudo: required
+script: make publish
+
+services:
+  - docker
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  GH_REF: github.com/tshm/hundredGrids.git
+  GH_TOKEN: $GH_TOKEN
+
