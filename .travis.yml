@@ -7,10 +7,6 @@ script: make publish
 services:
   - docker
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-
 env:
   global:
   - GH_REF: github.com/tshm/hundredGrids.git
