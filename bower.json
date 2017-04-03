@@ -1,0 +1,20 @@
+{
+  "name": "hundredgrid",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tosh satake <tshm@csc.jp>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tshm/hundredGrids",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pdfmake": "^0.1.27"
+  }
+}
