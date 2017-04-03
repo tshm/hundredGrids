@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bower": "bower install",
+    "bundle": "uglifyjs main.js  -o bundle.js -c -m",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
