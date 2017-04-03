@@ -10,6 +10,5 @@ services:
 deploy:
   provider: pages
   skip_cleanup: true
-  GH_REF: github.com/tshm/hundredGrids.git
-  GH_TOKEN: $GH_TOKEN
+  - GH_REF: github.com/tshm/hundredGrids.git
 
