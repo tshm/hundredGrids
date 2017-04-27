@@ -77,5 +77,8 @@ function makePage (npage) {
 var button = document.querySelector('#print')
 button.addEventListener('click', () => {
   var npage = +document.querySelector('#npages').value
-  pdfMake.createPdf(makePage(npage)).open()
+  // pdfMake.createPdf(makePage(npage)).open()
+  pdfMake.createPdf(makePage(npage)).download()
 })
+
+console.log('aaa')
